@@ -65,7 +65,7 @@ const [form, setForm] = useState({
           onClick={handleShow}
           className="fw-bold text-white"
           style={{
-            background: 'linear-gradient(135deg, #ff9800, #ff5722)',
+            background: 'linear-gradient(135deg, #29e11cff, #045609ff)',
             border: 'none',
             borderRadius: '14px',
             padding: '10px 22px',
@@ -111,7 +111,7 @@ const [form, setForm] = useState({
                       Rating
                     </button>
 
-                    <span style={{ marginLeft: "10px", fontSize: "20px", color: "#f7b731" }}>
+                    <span style={{ marginLeft: "10px", fontSize: "20px", color: "#ebcd0eff" }}>
                       {[...Array(form.rating)].map((_, i) => (
                         <i key={i} className="fa-solid fa-star"></i>
                       ))}

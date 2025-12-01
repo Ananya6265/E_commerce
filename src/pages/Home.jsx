@@ -53,12 +53,12 @@ function Home() {
                     <Card.Title
                       className="fw-bold"
                       style={{
-                        color: "#D84315",
+                        color: "#018417ff",
                         fontSize: "22px",
                         marginBottom: "15px",
                       }}
                     >
-                      {item.title}   {/* FIXED */}
+                      {item.title}  
                     </Card.Title>
 
                     <p>Price: ₹{item.price}</p>
@@ -69,7 +69,7 @@ function Home() {
                         className="fw-bold text-white mb-3"
                         style={{
                           width: "100%",
-                          background: "#EF6C00",
+                          background: "#097805ff",
                           borderRadius: "10px",
                           padding: "10px",
                         }}

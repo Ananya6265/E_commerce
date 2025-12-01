@@ -16,7 +16,7 @@ function Header() {
     <>
     <nav
   className="d-flex align-items-center justify-content-between px-4"
-  style={{ background: "#f89c33", height: "80px" }}
+  style={{ background: "#046606ff", height: "80px" }}
 >
   <div className="d-flex align-items-center">
     <img
@@ -59,7 +59,7 @@ function Header() {
 
     <Button
       style={{
-        background: "#eeb34eff",
+        background: "#09b92fff",
         border: "none",
         borderRadius: "40px",
         padding: "8px 25px",

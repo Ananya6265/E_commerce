@@ -3,12 +3,10 @@ import React, { createContext, useState } from "react";
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
-  // ---- States ----
   const [user, setUser] = useState(null);
   const [search, setSearch] = useState("");
   const [Admin, setAdmin] = useState(false);
 
-  // ---- Login User ----
   const loginUser = (userData) => {
     setUser(userData);
     sessionStorage.setItem("user", JSON.stringify(userData));

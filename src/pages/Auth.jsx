@@ -189,7 +189,7 @@ const handlelogin = async () => {
           type="button"
           className="btn"
           style={{
-            background: "linear-gradient(135deg, rgb(224, 88, 43), #ff7b4a)",
+            background: "linear-gradient(135deg, rgba(20, 193, 34, 1), #0b6306ff)",
             color: "white",
             borderRadius: "14px",
             padding: "12px",
@@ -227,7 +227,7 @@ const handlelogin = async () => {
             <Link
               to="/login"
               style={{
-                color: "rgb(224, 88, 43)",
+                color: "rgba(23, 163, 4, 1)",
                 fontWeight: "600",
               }}
             >

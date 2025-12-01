@@ -6,7 +6,7 @@ function Landing() {
     <div style={{ fontFamily: "Poppins" }}>
       <section
         style={{
-          background: "linear-gradient(135deg, #ff9933, #ff7a00)",
+          background: "linear-gradient(135deg, #70ff33ff, #055d08ff)",
           padding: "100px 20px",
           textAlign: "center",
           color: "#fff",
